@@ -43,7 +43,7 @@ mylist.binary_search(9,0,7)
 # The output should be 7
 
 mylist.delete_number()
-mylist.binary_search(9,0,7)
+mylist.binary_search(9,0,6)
 # The output should be -1
 ```
 
