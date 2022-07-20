@@ -1,4 +1,4 @@
-# MyList class and binary search
+# MyIntegerList class and binary search
 
 In this assigment you are required to implement two classes named **MyIntegerListBase** and
 **MyIntegerList**.
