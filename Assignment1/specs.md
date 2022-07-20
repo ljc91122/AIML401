@@ -23,18 +23,27 @@ add_number(num): # add one integer to the end of the list. You should check if t
 delete_number(): # delete the last entry of the list. Update n.
 ```
 
-**MyIntegerList** class inherits the above class by adding additional method called binary_search(num):
+**MyIntegerList** class inherits the above class by adding additional method called binary_search(num, low, high):
 
 binary_search implements the binary search algorithm in a recursive way (it calls itself).
-The function takes one integer as the parameter, it gives the index of the number if it exists in the list or -1 if not.
+The function takes 3 integers as the parameters: target number, low and high indices for consideration. It gives the index of the target number if it exists in the list or -1 if not.
 
 ```
 Example use case:
 
 mylist = MyIntegerList([1,3,4,6,6,7,8])
-mylist.binary_search(4)
+mylist.binary_search(4,0,6)
 # The output should be 2
-mylist.binary_search(2)
+
+mylist.binary_search(2,0,6)
+# The output should be -1
+
+mylist.add_number(9)
+mylist.binary_search(9,0,7)
+# The output should be 7
+
+mylist.delete_number()
+mylist.binary_search(9,0,7)
 # The output should be -1
 ```
 
