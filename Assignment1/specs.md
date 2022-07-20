@@ -19,7 +19,7 @@ Methods:
 
 constructor: # the parameter it takes is a python list object, if no prameter is given, the an empty list should be created.
 get_n(): # get the length of the list, should be zero if it is a empty list.
-add_number(): # add one integer to the end of the list. Update n.
+add_number(num): # add one integer to the end of the list. You should check if the given parameter is a valid integer or not. If not then ignore. Update n.
 delete_number(): # delete the last entry of the list. Update n.
 ```
 
