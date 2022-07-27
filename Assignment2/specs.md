@@ -1,0 +1,10 @@
+Q1:
+Postfix notation is an unambiguous way of writing an arithmetic expres- sion without parentheses. It is defined so that if “(exp1)op(exp2)” is a normal, fully parenthesized expression whose operation is op, the postfix version of this is “pexp1 pexp2 op”, where pexp1 is the postfix version of exp1 and pexp2 is the postfix version of exp2. The postfix version of a sin- gle number or variable is just that number or variable. For example, the postfix version of “((5+2)∗(8−3))/4” is “5 2 + 8 3 − ∗ 4 /”. Describe a nonrecursive way of evaluating an expression in postfix notation.
+
+Hints: You'll need a Stack class for this task.
+
+Q2:
+
+When a share of common stock of some company is sold, the capital gain (or, sometimes, loss) is the difference between the share’s selling price and the price originally paid to buy it. This rule is easy to under- stand for a single share, but if we sell multiple shares of stock bought over a long period of time, then we must identify the shares actually be- ing sold. A standard accounting principle for identifying which shares of a stock were sold in such a case is to use a FIFO protocol—the shares sold are the ones that have been held the longest (indeed, this is the de- fault method built into several personal finance software packages). For example, suppose we buy 100 shares at $20 each on day 1, 20 shares at $24 on day 2, 200 shares at $36 on day 3, and then sell 150 shares on day 4 at $30 each. Then applying the FIFO protocol means that of the 150 shares sold, 100 were bought on day 1, 20 were bought on day 2, and 30 were bought on day 3. The capital gain in this case would therefore be 100·10+20·6+30·(−6), or $940. Write a program that takes as input a sequence of transactions of the form “buy x share(s) at   y each” or “sell x share(s) at   y each,” assuming that the transactions oc- cur on consecutive days and the values x and y are integers. Given this input sequence, the output should be the total capital gain (or loss) for the entire sequence, using the FIFO protocol to identify shares.
+
+Hints: You'll need a Queue class for this task.
