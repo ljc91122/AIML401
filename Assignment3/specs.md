@@ -5,7 +5,7 @@ Hints: You will need a Stack class for this.
 
 Here is the pseudo-codes for the inorder DFS for your reference:
 
-***Preorder DFS***
+***Inorder DFS***
 
 ```
 1) Create an empty stack S.
