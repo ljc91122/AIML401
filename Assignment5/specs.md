@@ -21,7 +21,7 @@ def merge_sort_main(arr): #arr is a python list
 
 def merge_sort(arr, low, high): #resursive
 
-def merSubArray(subarr1, subarr2):
+def mergeSubArray(subarr1, subarr2):
 
 ```
 
