@@ -26,6 +26,6 @@ methods:
 
 def __init__(x): #constructor turning a given list x into a minimum heap
 def heapify(): #adjust heap to a valid minimum heap (parent is smaller than its children)
-def sort(): #heap sort and print the sorted elements in ascending order
+def sort(n): #heap sort and print the smallest n elements in ascending order
 
 ```
